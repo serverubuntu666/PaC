@@ -41,9 +41,9 @@ pipeline {
 
         stage('Print environment variables') {
             steps {
-                echo "Artifact Id is ${ArtifactId}"
-                echo "Version is ${Version}"
-                echo "Name is ${Name}"
+                echo "Artifact Id is '${ArtifactId}'"
+                echo "Version is '${Version}'"
+                echo "Name is '${Name}'"
             }
         }
 
